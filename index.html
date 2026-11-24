@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO principal: tienda virtual para Medellín y el Valle de Aburrá -->
+  <title>Sex Shop Online en Medellín | Juguetes y Bienestar Íntimo - Secretoys</title>
+  <meta name="description" content="Secretoys es tu tienda online de bienestar íntimo en Medellín y el Valle de Aburrá. Explora juguetes para adultos, cosmética íntima y lencería. Envíos a domicilio y atención discreta por WhatsApp.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow, max-image-preview:large">
+  <meta name="bingbot" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Secretoys">
+  <meta name="content-language" content="es-CO">
+  <meta name="rating" content="adult">
+  <meta name="theme-color" content="#100e0f">
+
+  <!-- Open Graph: datos disponibles sin inventar todavía el dominio -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="Secretoys">
+  <meta property="og:title" content="Secretoys | Tienda online de bienestar íntimo en Medellín">
+  <meta property="og:description" content="Juguetes para adultos, cosmética íntima y lencería. Envíos a domicilio en Medellín y el Valle de Aburrá, con atención discreta por WhatsApp.">
+
+  <!-- Datos estructurados: comercio exclusivamente online, sin dirección física ficticia -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "OnlineStore",
+    "name": "Secretoys",
+    "description": "Tienda online de bienestar íntimo, juguetes para adultos, cosmética íntima y lencería. Atención discreta y envíos a domicilio en Medellín y el Valle de Aburrá, Colombia.",
+    "telephone": "+573228156224",
+    "currenciesAccepted": "COP",
+    "areaServed": [
+      { "@type": "City", "name": "Medellín", "containedInPlace": { "@type": "AdministrativeArea", "name": "Antioquia, Colombia" } },
+      { "@type": "AdministrativeArea", "name": "Valle de Aburrá, Antioquia, Colombia" }
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+573228156224",
+      "contactType": "customer service",
+      "availableLanguage": "Spanish"
+    },
+    "knowsAbout": [
+      "Bienestar íntimo",
+      "Juguetes para adultos",
+      "Cosmética íntima",
+      "Lencería"
+    ]
+  }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="age-overlay" id="ageOverlay" aria-modal="true" role="dialog" aria-labelledby="ageTitle">
+    <div class="age-card">
+      <span class="eyebrow">SECRETOYS · BOUTIQUE ÍNTIMA</span>
+      <h2 id="ageTitle">Un espacio para adultos</h2>
+      <p>Este sitio contiene productos de bienestar íntimo dirigidos exclusivamente a personas mayores de 18 años.</p>
+      <button class="btn btn-gold" id="enterSite">Tengo 18 años o más</button>
+      <p class="age-small">Al ingresar confirmas que eres mayor de edad.</p>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Secretoys, inicio">
+      <span class="brand-name">SECRETOYS</span><span class="brand-sub">BOUTIQUE ÍNTIMA</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#inicio">Inicio</a><a href="#catalogo">Catálogo</a><a href="#nosotros">Nosotros</a><a href="#comprar">Cómo comprar</a>
+    </nav>
+    <button class="cart-button" id="openCart" aria-label="Abrir carrito">Bolsa <span id="cartCount">0</span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <span class="eyebrow">DESCUBRE · EXPLORA · DISFRUTA</span>
+        <h1>Tu lado más <em>secreto.</em></h1>
+        <p>Una selección pensada para despertar la curiosidad, explorar nuevas sensaciones y disfrutar a tu manera.</p>
+        <a class="btn btn-gold" href="#catalogo">Explorar catálogo <span>↗</span></a>
+      </div>
+      <div class="hero-note">DISCRECIÓN · BIENESTAR · CONFIANZA</div>
+    </section>
+
+    <section class="intro section-wrap" id="nosotros">
+      <span class="eyebrow">BIENVENIDOS A SECRETOYS</span>
+      <h2>Pequeños secretos,<br><em>grandes momentos.</em></h2>
+      <p>Somos una tienda virtual de bienestar íntimo en Medellín. Te acompañamos con atención cercana y discreta para que encuentres la referencia ideal, con envíos a domicilio en Medellín y el Valle de Aburrá.</p>
+    </section>
+
+    <section class="catalog-section section-wrap" id="catalogo">
+      <div class="section-heading">
+        <div><span class="eyebrow">NUESTRA SELECCIÓN</span><h2>Explora el catálogo</h2></div>
+        <p>Encuentra tus favoritos y agrégalos a tu bolsa.</p>
+      </div>
+      <div class="toolbar">
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Buscar un producto..." aria-label="Buscar productos"></label>
+        <div class="filters" id="categoryFilters">
+          <button class="filter active" data-category="Todos">Todos</button>
+          <button class="filter" data-category="Juguetes">Juguetes</button>
+          <button class="filter" data-category="Cosméticos">Cosméticos</button>
+          <button class="filter" data-category="Lencería">Lencería</button>
+        </div>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalog-note">Las fotografías de referencia se presentan desde el catálogo original. Consulta disponibilidad antes de realizar tu pedido.</p>
+    </section>
+
+    <section class="service-band" id="comprar">
+      <div class="service-inner">
+        <span class="eyebrow">COMPRA FÁCIL Y DISCRETA</span>
+        <h2>Tu pedido comienza<br><em>con un mensaje.</em></h2>
+        <p>Escríbenos con tus productos seleccionados. Te confirmaremos disponibilidad, valor y detalles de entrega.</p>
+        <a class="btn btn-gold" href="https://wa.me/573228156224?text=Hola%20Secretoys%2C%20quiero%20informaci%C3%B3n%20del%20cat%C3%A1logo." target="_blank" rel="noopener">Hablar por WhatsApp ↗</a>
+      </div>
+    </section>
+
+    <section class="info-grid section-wrap">
+      <article><span class="info-icon">✦</span><h3>Atención privada</h3><p>Asesoría personalizada por WhatsApp.</p></article>
+      <article><span class="info-icon">⌂</span><h3>Entrega a domicilio</h3><p>Medellín y área metropolitana.</p></article>
+      <article><span class="info-icon">◇</span><h3>Medios de pago</h3><p>Transferencia Bancolombia y Nequi. Pago contra entrega según cobertura.</p></article>
+    </section>
+
+
+<!-- BOTÓN FLOTANTE DE WHATSAPP -->
+<a 
+    href="https://wa.me/573228156224"
+    class="whatsapp-float"
+    id="whatsappButton"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Contactar por WhatsApp"
+>
+    <svg viewBox="0 0 32 32" aria-hidden="true">
+        <path fill="currentColor" d="M16.04 3C9.02 3 3.3 8.7 3.3 15.72c0 2.24.59 4.43 1.72 6.35L3.2 28.9l7.02-1.84a12.7 12.7 0 0 0 5.82 1.4h.01c7.02 0 12.74-5.71 12.74-12.73 0-3.4-1.32-6.6-3.72-9A12.65 12.65 0 0 0 16.04 3zm.01 23.3h-.01a10.6 10.6 0 0 1-5.4-1.48l-.39-.23-4.16 1.09 1.11-4.06-.25-.42a10.57 10.57 0 0 1-1.63-5.48c0-5.9 4.81-10.7 10.73-10.7 2.86 0 5.55 1.11 7.57 3.14a10.63 10.63 0 0 1 3.13 7.57c0 5.91-4.81 10.72-10.7 10.72zm5.88-8.03c-.32-.16-1.9-.94-2.2-1.04-.3-.11-.51-.16-.73.16-.21.32-.83 1.04-1.02 1.25-.19.21-.38.24-.7.08-.32-.16-1.35-.5-2.57-1.59-.95-.85-1.6-1.9-1.79-2.22-.19-.32-.02-.49.14-.65.14-.14.32-.38.48-.57.16-.19.21-.32.32-.54.11-.21.06-.4-.03-.56-.08-.16-.73-1.76-1-2.41-.26-.63-.53-.55-.73-.56h-.62c-.21 0-.56.08-.86.4-.29.32-1.12 1.1-1.12 2.7s1.15 3.13 1.31 3.34c.16.22 2.26 3.45 5.48 4.83.77.33 1.37.53 1.84.68.77.24 1.47.21 2.02.13.62-.09 1.9-.78 2.17-1.53.27-.75.27-1.4.19-1.53-.08-.14-.29-.22-.62-.38z"/>
+    </svg>
+</a>
+
+
+
+
+
+
+
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="#inicio"><span class="brand-name">SECRETOYS</span><span class="brand-sub">BOUTIQUE ÍNTIMA</span></a>
+    <p>Discreción y confianza en cada elección.</p>
+    <a href="https://wa.me/573228156224" target="_blank" rel="noopener">WhatsApp: 322 815 6224</a>
+    <small>© <span id="year"></span> Secretoys. Todos los derechos reservados. · +18</small>
+  </footer>
+
+  <!-- MODAL DE VISTA PREVIA DE PRODUCTO -->
+  <div class="product-modal-backdrop" id="productModalBackdrop" aria-hidden="true">
+    <section class="product-modal" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+      <button class="product-modal-close" id="closeProductModal" aria-label="Cerrar vista previa">×</button>
+      <div class="product-modal-image"><img id="productModalImage" src="" alt=""></div>
+      <div class="product-modal-details">
+        <span class="eyebrow" id="productModalCategory"></span>
+        <h2 id="productModalTitle"></h2>
+        <p id="productModalDescription"></p>
+        <strong class="product-modal-price" id="productModalPrice"></strong>
+        <button class="btn btn-gold full" id="productModalAdd">Agregar a mi bolsa +</button>
+        <small>Disponibilidad y detalles se confirman por WhatsApp.</small>
+      </div>
+    </section>
+  </div>
+
+
+  <div class="cart-backdrop" id="cartBackdrop"></div>
+  <aside class="cart-panel" id="cartPanel" aria-label="Carrito de compras" aria-hidden="true">
+    <div class="cart-head"><div><span class="eyebrow">TU SELECCIÓN</span><h2>Mi bolsa</h2></div><button id="closeCart" class="close-cart" aria-label="Cerrar carrito">×</button></div>
+    <div class="cart-items" id="cartItems"></div>
+    <div class="cart-bottom"><div class="cart-total"><span>Total estimado</span><strong id="cartTotal">$0</strong></div><button class="btn btn-gold full" id="checkoutButton">Pedir por WhatsApp ↗</button><small>El envío y la disponibilidad se confirman por WhatsApp.</small></div>
+  </aside>
+  <script src="js/app.js"></script>
+</body>
+</html>

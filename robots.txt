@@ -1,0 +1,6 @@
+# Secretoys — reglas públicas para rastreadores
+User-agent: *
+Allow: /
+
+# Cuando se defina y publique el dominio, agrega aquí la URL absoluta del sitemap:
+# Sitemap: https://TU-DOMINIO-REAL/sitemap.xml
