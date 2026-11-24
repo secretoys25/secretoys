@@ -46,14 +46,14 @@ const PRODUCTS = [
     "description": "Pulsera de cuero y felpa. Metal hipoalergénico, cadena ajustable y desmontable.",
     "image": "assets/products/product-005.jpg"
   },
-  {
-    "id": 6,
-    "name": "Vibrador Lennon",
-    "category": "Juguetes",
-    "price": 49900,
-    "description": "Anillo de estimulación clitorial de vibración intensa, fabricado en silicona.",
-    "image": "assets/products/product-006.jpg"
-  },
+ /// {
+//    "id": 6,
+ //   "name": "Vibrador Lennon",
+//    "category": "Juguetes",
+//    "price": 49900,
+ //   "description": "Anillo de estimulación clitorial de vibración intensa, fabricado en silicona.",
+ //   "image": "assets/products/product-006.jpg"
+ /// },
   {
     "id": 7,
     "name": "Consolador Miller",
@@ -78,14 +78,14 @@ const PRODUCTS = [
     "description": "Largo 4 cm, diámetro 2 cm. Cable de 28,5 cm.",
     "image": "assets/products/product-009.jpg"
   },
-  {
-    "id": 10,
-    "name": "Vibrador Apolo",
-    "category": "Juguetes",
-    "price": 50000,
-    "description": "Silicona suave con textura venosa y perilla para regular intensidad. 2 pilas AA, largo 18 cm.",
-    "image": "assets/products/product-010.jpg"
-  },
+//  {
+//    "id": 10,
+//    "name": "Vibrador Apolo",
+//    "category": "Juguetes",
+//    "price": 50000,
+//    "description": "Silicona suave con textura venosa y perilla para regular intensidad. 2 pilas AA, largo 18 cm.",
+//    "image": "assets/products/product-010.jpg"
+//  },
   {
     "id": 11,
     "name": "Inmovilizador",
